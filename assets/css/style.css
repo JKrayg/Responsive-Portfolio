@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid rgb(201, 196, 196);
+    height: 87px;
+    background-color: lightgray;
+}
+
+body {
+    background-image: url(../images/white-light-stone-floor-texture-background_40415-296.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#name {
+    float: left;
+    background-color: cadetblue;
+    padding: 0.82em;
+    color: white;
+    
+}
+
+#nav-links {
+    padding-top: 40px;
+    float: right;
+    
+}
+
+#nav-links li {
+    display: inline-block;
+}
+
+#nav-links li a {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+}
+
+#nav-links li a:hover {
+    background-color: rgba(95, 158, 160, 0.493);
+    transition: all 0.5s ease-in
+}
+
+#nav-links li a:hover {
+    border: 1px solid gray;
+}
+
+#section2 {
+    box-sizing: content-box;
+    padding: 20px;
+    border: 1px solid lightgray;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 3.5em;
+    background-color: white;
+}
+
+form {
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+}
+
+input[name=message], [name=email], [name=firstname] {
+    width: 100%;
+}
+
+input[name=message] {
+    padding-bottom: 18em;
+}
+
+input[type=submit] {
+    /*position: relative;*/
+    background-color: white;
+    border: 1.5px lightseagreen solid;
+    color: gray;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(38, 201, 193, 0.507);
+    transition: all 0.5s ease-in;
+}
+
+h1 {
+    color: cadetblue;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+img {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+p {
+    line-height: 2.0;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+    padding-top: 10px;
+}
+
+#indent {
+    text-indent: 50px;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.section4 {
+    box-sizing: content-box;
+    height: 780px;
+    padding: 1em;
+    border: 1px solid lightgray;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 3.5em;
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    background-color: rgb(148, 147, 147);
+    text-align: center;
+    border-top: cadetblue 8px solid;
+}
+
+.copyright {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+hr {
+    margin-bottom: 20px;
+    color: lightgray;
+}
+
+.port-img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.box{
+    position: relative;
+    display: inline-block;
+}
+
+.box #text{
+    position: absolute;
+    margin-left: 10px;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 170px;
+    background: cadetblue;
+    color: white;
+    height: 35px;
+    width: 300px;
+    padding-top: 10px;
+}
+
+.box1 {
+    position: relative;
+    display: inline-block;
+}
+
+.box1 #text1 {
+    position: absolute;
+    margin-left: 10px;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 170px;
+    background: cadetblue;
+    color: white;
+    height: 35px;
+    width: 300px;
+    padding-top: 10px;
+}
+
+.box2 {
+    position: relative;
+    display: inline-block;
+}
+
+.box2 #text2 {
+    position: absolute;
+    margin-left: 10px;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 170px;
+    background: cadetblue;
+    color: white;
+    height: 35px;
+    width: 300px;
+    padding-top: 10px;
+}
+
+.box3 {
+    position: relative;
+    display: inline-block;
+}
+
+.box3 #text3 {
+    position: absolute;
+    margin-left: 10px;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 170px;
+    background: cadetblue;
+    color: white;
+    height: 35px;
+    width: 300px;
+    padding-top: 10px;
+}
+
+.box4 {
+    position: relative;
+    display: inline-block;
+}
+
+.box4 #text4 {
+    position: absolute;
+    margin-left: 10px;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 170px;
+    background: cadetblue;
+    color: white;
+    height: 35px;
+    width: 300px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 640px) {
+
+    .container {
+        max-width: 640px;
+        margin: auto;
+    }
+
+    header {
+        position: static;
+        margin: 0;
+        width: 100%;
+        border-bottom: 2px solid rgb(201, 196, 196);
+        height: 87px;
+        background-color: lightgray;
+    }
+
+    #name {
+        float: left;
+        position: static;
+        width: 100%;
+        text-align: center;
+        background-color: cadetblue;
+        padding: 0.82em;
+        padding-left: 0;
+        padding-right: 0;
+        color: white;
+        
+    }
+
+    #nav-links {
+        padding: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        float: left;
+        width: 100%;
+        
+    }
+    #section2 {
+        box-sizing: content-box;
+        padding: 20px;
+        border: 1px solid lightgray;
+        margin: auto;
+        margin-top: 5em;
+        margin-bottom: 3.5em;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+    }
+
+    img {
+        width: 100%;
+        height: 200px;
+        margin: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        clear: both;
+        font-size: 12px;
+        line-height: 2.0;
+        font-family: "Roboto", sans-serif;
+        color: gray;
+        padding-top: 10px;
+    }
+
+    .section4 {
+        box-sizing: content-box;
+        padding: 20px;
+        height: 1740px;
+        border: 1px solid lightgray;
+        margin: auto;
+        margin-top: 5em;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+    }
+
+    .port-img {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+    .box #text{
+        position: absolute;
+        margin-left: 10px;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 170px;
+        background: cadetblue;
+        color: white;
+        height: 35px;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .box1 #text1 {
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 80px;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 170px;
+        background: cadetblue;
+        color: white;
+        height: 35px;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .box2 #text2 {
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 80px;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 170px;
+        background: cadetblue;
+        color: white;
+        height: 35px;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .box3 #text3 {
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 80px;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 170px;
+        background: cadetblue;
+        color: white;
+        height: 35px;
+        width: 100%;
+        padding-top: 10px;
+    }
+    
+    .box4 #text4 {
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 80px;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 170px;
+        background: cadetblue;
+        color: white;
+        height: 35px;
+        width: 100%;
+        padding-top: 10px;
+    }
+}
