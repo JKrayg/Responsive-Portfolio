@@ -634,6 +634,10 @@ hr {
         margin-left: 0;
     }
 
+    .box {
+        display: block;
+    }
+
     .box #text{
         position: absolute;
         margin-left: 0px;
