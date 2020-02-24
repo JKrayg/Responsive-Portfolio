@@ -301,19 +301,44 @@ hr {
         font-size: 12px;
     }
 
+    h3 {
+        font-size: 16px;
+    }
+
     .section4 {
-        margin-right: 350px;
+        width: 60%;
         margin-top: 2em;
+        margin-left: 0;
         height: inherit;
     }
 
     .port-img {
         height: 150px;
-        width: 200px;
+        width: 90%;
         margin-bottom: 10px;
         margin-left: 40px;
         padding-bottom: 0px;
         padding-right: 0;
+    }
+
+    .box {
+        width: 40%;
+    }
+
+    .box1 {
+        width: 40%;
+    }
+
+    .box2 {
+        width: 40%;
+    }
+
+    .box3 {
+        width: 40%;
+    }
+
+    .box4 {
+        width: 40%;
     }
 
     .box #text{
@@ -327,7 +352,7 @@ hr {
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 200px;
+        width: 90%;
         padding-top: 10px;
     }
 
@@ -342,7 +367,7 @@ hr {
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 200px;
+        width: 90%;
         padding-top: 10px;
     }
 
@@ -357,7 +382,7 @@ hr {
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 200px;
+        width: 90%;
         padding-top: 10px;
     }
 
@@ -372,7 +397,7 @@ hr {
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 200px;
+        width: 90%;
         padding-top: 10px;
     }
 
@@ -387,7 +412,7 @@ hr {
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 200px;
+        width: 90%;
         padding-top: 10px;
     }
 
@@ -427,11 +452,12 @@ hr {
         box-sizing: content-box;
         padding: 20px;
         height: inherit;
+        width: 95%;
         border: 1px solid lightgray;
         margin: auto;
         margin-top: 5em;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
         background-color: white;
     }
 
@@ -463,85 +489,110 @@ hr {
 
     .port-img {
         height: 200px;
-        width: 275px;
+        width: 90%;
         margin-bottom: 15px;
-        margin-left: 30px;
+        margin-left: 0px;
         padding-bottom: 15px;
         padding-right: 0;
     }
 
+    .box {
+        width: 40%;
+        margin-left: 50px;
+    }
+
+    .box1 {
+        width: 40%;
+        margin-left: 50px;
+    }
+
+    .box2 {
+        width: 40%;
+        margin-left: 50px;
+    }
+
+    .box3 {
+        width: 40%;
+        margin-left: 50px;
+    }
+
+    .box4 {
+        width: 40%;
+        margin-left: 50px;
+    }
+
     .box #text{
         position: absolute;
-        margin-left: 30px;
+        margin-left: 0px;
         margin-top: 0px;
         left: 0;
         right: 0;        
         text-align: center;
-        top: 150px;
+        top: 170px;
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 275px;
+        width: 90%;
         padding-top: 10px;
     }
 
     .box1 #text1{
         position: absolute;
-        margin-left: 30px;
+        margin-left: 0px;
         margin-top: 0px;
         left: 0;
         right: 0;        
         text-align: center;
-        top: 150px;
+        top: 170px;
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 275px;
+        width: 90%;
         padding-top: 10px;
     }
 
     .box2 #text2{
         position: absolute;
-        margin-left: 30px;
+        margin-left: 0px;
         margin-top: 0px;
         left: 0;
         right: 0;        
         text-align: center;
-        top: 150px;
+        top: 170px;
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 275px;
+        width: 90%;
         padding-top: 10px;
     }
 
     .box3 #text3{
         position: absolute;
-        margin-left: 30px;
+        margin-left: 0px;
         margin-top: 0px;
         left: 0;
         right: 0;        
         text-align: center;
-        top: 150px;
+        top: 170px;
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 275px;
+        width: 90%;
         padding-top: 10px;
     }
 
     .box4 #text4{
         position: absolute;
-        margin-left: 30px;
+        margin-left: 0px;
         margin-top: 0px;
         left: 0;
         right: 0;        
         text-align: center;
-        top: 150px;
+        top: 170px;
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 275px;
+        width: 90%;
         padding-top: 10px;
     }
 
@@ -568,6 +619,7 @@ hr {
     .container {
         max-width: 640px;
         margin: auto;
+        padding: 0;
     }
 
     header {
@@ -587,7 +639,6 @@ hr {
         background-color: cadetblue;
         padding: 0.82em;
         padding-left: 0;
-        padding-right: 0;
         color: white;
         
     }
@@ -595,7 +646,6 @@ hr {
     #nav-links {
         padding: 20px;
         padding-left: 0;
-        padding-right: 0;
         height: 20px;
         text-align: center;
         background-color: white;
@@ -610,9 +660,10 @@ hr {
         margin: auto;
         margin-top: 5em;
         margin-bottom: 3.5em;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
         background-color: white;
+        
     }
 
     #about-img {
@@ -640,20 +691,45 @@ hr {
         border: 1px solid lightgray;
         margin: auto;
         margin-top: 5em;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
         background-color: white;
+        width: 100%;
     }
 
     .port-img {
         height: 300px;
-        width: 100%;
+        width: 95%;
         margin-bottom: 15px;
         margin-left: 0;
+        padding-right: 30px;
+        margin-top: 0px;
     }
 
     .box {
+        width: 100%;
         display: block;
+        margin-left: 0px;
+    }
+
+    .box1 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .box2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .box3 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .box4 {
+        width: 100%;
+        margin-left: 0px;
     }
 
     .box #text{
@@ -667,7 +743,7 @@ hr {
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 100%;
+        width: 95%;
         padding-top: 10px;
     }
 
@@ -682,7 +758,7 @@ hr {
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 100%;
+        width: 95%;
         padding-top: 10px;
     }
 
@@ -697,7 +773,7 @@ hr {
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 100%;
+        width: 95%;
         padding-top: 10px;
     }
 
@@ -712,7 +788,7 @@ hr {
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 100%;
+        width: 95%;
         padding-top: 10px;
     }
     
@@ -727,7 +803,7 @@ hr {
         background: cadetblue;
         color: white;
         height: 35px;
-        width: 100%;
+        width: 95%;
         padding-top: 10px;
     }
 
@@ -753,6 +829,10 @@ hr {
         text-align: center;
         border-top: cadetblue 8px solid;
         
+    }
+
+    h3 {
+        font-size: initial;
     }
 }
 
